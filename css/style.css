@@ -1,0 +1,234 @@
+﻿*{
+    margin: 0;
+}
+body{
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 1100px;
+    margin: auto;
+}
+.align-items{
+    align-items: center;
+}
+
+.header-section{
+    background-color: #FCDB00;
+}
+header{
+    padding: 25px 0;
+}
+.logo{
+    max-width: 100%;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+.logo img{}
+
+
+nav{
+    max-width: 100%;
+    flex-basis: auto;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{list-style-type: none;padding: 10px 35px;}
+nav ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+
+.header-content{
+    max-width: 50%;
+    flex-basis: 50%;
+    box-sizing: border-box;
+    padding-right: 100px;
+}
+.header-content h1{
+    font-size: 32px;
+    color: #010101;
+    padding: 10px 0;
+}
+.header-content h3{
+    font-size: 20px;
+    color: #313841;
+    font-weight: 400;
+    padding: 20px 0;
+    width: 400px;
+}
+.header-content p{
+    font-size: 16px;
+    color: #555;
+    font-weight: 400;
+}
+
+.header-img{
+    max-width: 50%;
+    flex-basis: 50%;
+    box-sizing: border-box;
+    padding-left: 60px;
+    margin: 20px 0;
+}
+.header-img img{}
+
+
+.bullet{
+    width: 100px;
+    margin: auto;
+    padding: 50px 0;
+}
+.bullet ul{
+    display: flex;
+}
+.bullet ul li{
+    max-width: 100%;
+    flex-basis: auto;
+    flex-grow: 1;
+    list-style-type: none;
+}
+.bullet ul li a{
+    display: block;
+    height: 15px;
+    width: 15px;
+    background:#feed80;
+    border-radius: 50%;
+}
+.bullet ul li a:hover{
+    background-color: #fff;
+}
+
+
+.features-section{
+    padding: 100px 0;
+}
+.heading{
+    text-align: center;
+    padding: 50px 0;
+}
+.heading h1{
+    color: #010101;
+    font-size: 32px;
+    font-weight: 600;
+}
+.heading p{
+    color: #898989;
+    font-size: 16px;
+    width: 560px;
+    margin: auto;
+    line-height: 22px;
+}
+.features{
+    max-width: 33.33%;
+    flex-basis: 33.33%;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+.features-content{
+    max-width: 80%;
+    flex-basis: 80%;
+    box-sizing: border-box;
+}
+.features-content h2{
+    font-size: 20px;
+    color: #101010;
+}
+.features-content p{
+    font-size: 16px;
+    width: 200px;
+    padding: 20px 0;
+}
+.features-icon{
+    max-width: 20%;
+    flex-basis: 20%;
+    box-sizing: border-box;
+}
+.features-icon i{
+    font-size: 40px;
+}
+
+
+
+.subscribe-section{
+    background-color: #101010;
+}
+.subscribe-section .heading h1{
+    color: #fcdb00;
+    padding-bottom: 20px;
+}
+.email{
+    max-width: 65%;
+    flex-basis: 65%;
+    box-sizing: border-box;
+    margin-right: 50px;
+}
+.email input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.submit{
+    max-width: 25%;
+    flex-basis: 25%;
+    box-sizing: border-box;
+}
+.submit input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #fcdb00;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.social-list{padding: 50px 0;}
+.social-list ul{width: 200px;
+    margin: auto;
+    list-style-type: none;
+}
+.social-list ul li{
+    max-width: 100%;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+.social-list ul li a{
+    font-size: 30px;
+    color: #fcdb00;
+}
+
+footer{}
+.address{
+    max-width: 25%;
+    flex-basis: 25%;
+    box-sizing: border-box;
+    color: #a3a3a3;
+}
+.address address{}
+.col{
+    max-width: 100%;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+.col ul{}
+.col ul li{
+    list-style-type: none;
+}
+.col ul li a{
+    text-decoration: none;
+    color: #a3a3a3;
+}
